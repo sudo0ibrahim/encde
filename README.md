@@ -1,7 +1,6 @@
 # encde
 Simplified word coding / تشفير مبسط للكلمات
 
-مفتاح التشفير أي رقم
 
 ```batch
 encode[e] decode[d]: e
