@@ -3,6 +3,8 @@ Simplified word coding / تشفير مبسط للكلمات
 
 The encryption key is any number / مفتاح التشفير أي رقم
 
+## Example / مثال
+encryption key in the example / مفتاح التشفير في المثال
 ```batch
 encode[e] decode[d]: e
 word: hello
