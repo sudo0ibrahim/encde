@@ -57,24 +57,29 @@ int main()
         cin>>word;
         cout<<"key: ";
         cin>>key;
-        
-        if(q == 'e'){
-            
-            for(int i =0; i< word.length(); i++){
+
+        if(cin){
+            if(q == 'e'){
                 
-                encode(word[i], key);
+                for(int i =0; i< word.length(); i++){
+                    
+                    encode(word[i], key);
+                }
             }
-        }
-        else if(q == 'd'){
-            
-            for(int i =0; i < word.length(); i++){
+            else if(q == 'd'){
                 
-                decode(word[i], key);
-                
+                for(int i =0; i < word.length(); i++){
+                    
+                    decode(word[i], key);
+                    
+                }
+            }
+            else{
+                cout<<"..";
+                break;
             }
         }
         else{
-            cout<<"..";
             break;
         }
 
