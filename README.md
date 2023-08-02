@@ -16,4 +16,14 @@ word: axeeh
 key: 19
 hello
 
+encode[e] decode[d]: e
+word: man
+key: 78
+¡¢
+
+encode[e] decode[d]: d
+word: ¡¢
+key: 78
+man
+
 ```
